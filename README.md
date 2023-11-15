@@ -49,7 +49,7 @@ There are two options when using template files:
 * Option 2) Speciy a filename input with the path to a template file.
 ```yaml
 - name: Verify Linked Issue
-  uses: hattan/verify-linked-issue-action@v1.1.5
+  uses: healthstarconnectsllc/verify-linked-issue-action@v1.1.2
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   with:
