@@ -10,4 +10,4 @@ inputs:
       description: The name of the file to use as the comment template for pull requests with no linked issues.
 runs:
   using: 'node20'
-  main: 'src/index.js'
+  main: 'dist/index.js'
